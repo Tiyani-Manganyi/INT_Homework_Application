@@ -24,16 +24,11 @@
 | TJ. Bosetsi            | 222472954       | [ThabisoJ072](https://github.com/ThabisoJ072)
 ---
 
-## 📋 Table of Contents
+##Demo pictures
 
-1. [About the Project](#about-the-project)  
-2. [Installation](#installation)  
-3. [Usage](#usage)  
-4. [Folder Structure](#folder-structure)  
-5. [Contributing](#contributing)  
-6. [License](#license)
-
----
+![Screenshot](screenshot(1).png)
+![Screenshot](screenshot(2).png)
+![Screenshot](screenshot(3).png)
 
 ## 📖 About the Project
 
