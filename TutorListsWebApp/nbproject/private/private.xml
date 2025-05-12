@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/add_tutor.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/EndSessionServlet.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/delete_tutor.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/StatisticsServlet.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/view_all_tutors.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/WEB-INF/web.xml</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/statistics_outcome.jsp</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/index.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/statistics.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/DeleteTutorServlet.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/AddTutorServlet.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/tutor_output.jsp</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/search_tutor.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/StartSessionServlet.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/ViewAllTutorsServlet.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/TotalNumberOfTutorsServlet.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/menu.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/view_tutors.jsp</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/view_tutors.jsp</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/web/display_number_tutor.html</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsWebApp/src/java/ac/za/tut/web/SearchTutorServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Search Tutor Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: linear-gradient(to right, #d3cce3, #e9e4f0);
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .container {
+                background-color: #fff;
+                padding: 40px;
+                border-radius: 14px;
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+                width: 400px;
+                text-align: center;
+            }
+    
+            h1 {
+                margin-bottom: 20px;
+                color: #34495e;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+            }
+    
+            p {
+                color: #555;
+                margin-bottom: 25px;
+            }
+    
+            form {
+                margin-top: 10px;
+            }
+    
+            .form-group {
+                margin-bottom: 20px;
+                text-align: left;
+            }
+    
+            label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 6px;
+                color: #333;
+            }
+    
+            input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                font-size: 14px;
+            }
+    
+            input[type="submit"] {
+                width: 100%;
+                background-color: #8e44ad;
+                color: white;
+                padding: 12px;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+    
+            input[type="submit"]:hover {
+                background-color: #732d91;
+            }
+    
+            .links {
+                margin-top: 15px;
+                font-size: 14px;
+            }
+    
+            .links a {
+                color: #732d91;
+                text-decoration: none;
+                font-weight: bold;
+                margin: 0 5px;
+            }
+    
+            .links a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Search Tutor</h1>
+            <p>Use the form below to search for a tutor</p>
+            <form action="SearchTutorServlet.do" method="POST">
+                <div class="form-group">
+                    <label for="tut_number">Staff Number:</label>
+                    <input type="text" name="tut_number" id="tut_number" required>
+                </div>
+                <input type="submit" value="Get Tutor">
+            </form>
+            <div class="links">
+                Go back to <a href="menu.html">Menu</a> or <a href="EndSessionServlet.do">Logout</a>
+            </div>
+        </div>
+    </body>
+</html>

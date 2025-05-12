@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Tutor Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+    
+            .container {
+                background-color: #fff;
+                padding: 40px;
+                border-radius: 12px;
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+                max-width: 500px;
+                width: 100%;
+            }
+    
+            h1 {
+                color: #2c3e50;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+    
+            p {
+                color: #555;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+    
+            form {
+                width: 100%;
+            }
+    
+            .form-group {
+                margin-bottom: 15px;
+            }
+    
+            label {
+                display: block;
+                margin-bottom: 6px;
+                font-weight: bold;
+                color: #333;
+            }
+    
+            input[type="text"],
+            select,
+            input[type="file"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                font-size: 14px;
+                box-sizing: border-box;
+            }
+    
+            input[type="submit"],
+            input[type="button"] {
+                background-color: #3498db;
+                color: white;
+                padding: 12px;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                width: 100%;
+                margin-top: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+    
+            input[type="submit"]:hover,
+            input[type="button"]:hover {
+                background-color: #2980b9;
+            }
+    
+            .links {
+                text-align: center;
+                margin-top: 15px;
+            }
+    
+            .links a {
+                color: #2c3e50;
+                text-decoration: none;
+                font-weight: bold;
+            }
+    
+            .links a:hover {
+                text-decoration: underline;
+            }
+    
+            #subjectDiv input[type="text"] {
+                margin-top: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Add Tutor</h1>
+            <p>Please fill in the information to add a tutor</p>
+            <form action="AddTutorServlet.do" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="tut_number">Staff Number:</label>
+                    <input type="text" name="tut_number" id="tut_number" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="tut_name">Tutor Name:</label>
+                    <input type="text" name="tut_name" id="tut_name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="tut_age">Tutor Age:</label>
+                    <input type="text" name="tut_age" id="tut_age" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="tut_gender">Tutor Gender:</label>
+                    <select name="tut_gender" id="tut_gender" required>
+                        <option value="">Select</option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label>Tutor Subjects:</label>
+                    <div id="subjectDiv">
+                        <input type="text" name="tut_subjects" required>
+                    </div>
+                    <input type="button" onclick="addSubject()" value="Add Another Subject">
+                </div>
+    
+                <div class="form-group">
+                    <label for="image">Tutor Images:</label>
+                    <input type="file" name="image" id="image" multiple accept="image/*" required>
+                </div>
+    
+                <input type="submit" value="Add Tutor">
+    
+                <div class="links">
+                    <p>
+                        Click <a href="menu.html">here</a> to go back to menu or <a href="EndSessionServlet.do">here</a> to logout.
+                    </p>
+                </div>
+            </form>
+        </div>
+    
+        <script>
+            function addSubject() {
+                var subjectDiv = document.getElementById("subjectDiv");
+                var newInput = document.createElement("input");
+                newInput.type = "text";
+                newInput.name = "tut_subjects";
+                newInput.placeholder = "New Subject";
+                subjectDiv.appendChild(document.createElement("br"));
+                subjectDiv.appendChild(newInput);
+            }
+        </script>
+    </body>
+</html>

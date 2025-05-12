@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/entity/Image.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/entity/Tutor.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/entity/StuffNumberInvalid.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/bl/AbstractFacade.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/bl/TutorFacadeLocal.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/bl/ImageFacadeLocal.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/bl/TutorFacade.java</file>
+            <file>file:/D:/My%20Documents/NetBeansProjects/TutorListsEJBModule/src/java/za/ac/tut/model/bl/ImageFacade.java</file>
+        </group>
+    </open-files>
+</project-private>
