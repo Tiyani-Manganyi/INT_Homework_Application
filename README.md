@@ -26,9 +26,8 @@
 
 ##Demo pictures
 
-![Screenshot](Screenshot(1).png)
-![Screenshot](Screenshot(2).png)
-![Screenshot](Screenshot(3).png)
+![screenshot](add.png)
+![screenshot](menu.png)
 
 ## 📖 About the Project
 
