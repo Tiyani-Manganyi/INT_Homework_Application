@@ -20,8 +20,8 @@
 | Student Name           | Student Number  | GitHub Profile                                      |
 |------------------------|-----------------|------------------------------------------------------|
 | T. Manganyi            | 221816650       | [Tiyani-Manganyi](https://github.com/Tiyani-Manganyi) |
-| (Your Partner’s Name)  | 220796167       | —                                                    |
-
+| H. Hobyani             | 220796167       | [hluleko](https://github.com/hluleko)                                                    |
+| TJ. Bosetsi            | 222472954       | [ThabisoJ072](https://github.com/ThabisoJ072)
 ---
 
 ## 📋 Table of Contents
